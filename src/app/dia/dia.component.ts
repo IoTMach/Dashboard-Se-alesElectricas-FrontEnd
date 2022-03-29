@@ -205,7 +205,7 @@ export class DiaComponent implements OnInit {
                 type: 'line' },
           ],
           layout: {
-            title: 'Voltaje Trifasico',
+            title: 'Voltaje Trifásico',
             yaxis: {
               range: [227.5, 230]
             }
@@ -242,7 +242,7 @@ export class DiaComponent implements OnInit {
                 type: 'line' },
           ],
           layout: {
-            title: 'Intensidad Trifasica',
+            title: 'Intensidad Trifásica',
             yaxis: {
               range: [Math.min.apply(null, this.intencidad), Math.max.apply(null, this.intencidad)]
             }
@@ -279,7 +279,7 @@ export class DiaComponent implements OnInit {
                 type: 'line' },
           ],
           layout: {
-            title: 'Potencia Activa Trifasica',
+            title: 'Potencia Activa Trifásica',
             yaxis: {
               range: [Math.min.apply(this.listMedidor.map((listMedidor: any) => listMedidor.ap3ph)),
                 Math.max.apply(this.listMedidor.map((listMedidor: any) => listMedidor.ap3ph))]
